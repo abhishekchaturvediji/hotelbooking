@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body,.container{
+    height: 100%;
+    width: 100%;
+}
+
+:root{
+    --white-color : #F6F6F6;
+    --grey-color : #CCCCCC;
+    --black-color : #252525;
+    --cream-color : #C9BEB3;
+    --secondary-color : #C49C74;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.content-space-between{
+    justify-content: space-between;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-space-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m-10{
+    margin: 10px;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+
+.header{
+    background-image: url(./assets/background-img.png);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay{
+    background-color: #3a3a3aa3;
+    height: 100%;
+}
+
